@@ -1,0 +1,33 @@
+# Visual Studio / MSBuild
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.user
+*.aps
+*.db
+*.ipch
+*.ilk
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+*.exp
+*.tlog
+*.log
+
+# Pastas de saída geradas pelo Visual Studio
+[Oo]ut/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Sistema operacional / editores
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~

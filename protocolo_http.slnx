@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="protocolo_http.vcxproj" Id="959d313c-0e75-40e2-9fe8-3e654b77cc9b" />
+</Solution>
