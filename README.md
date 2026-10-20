@@ -65,5 +65,6 @@ cl /std:c++latest /EHsc /W3 /Fe:protocolo_http.exe protocolo_http.cpp
 
 ## Licença
 
-Este projeto é disponibilizado para fins educacionais. Não há licença declarada; entre em
-contato com o autor para reutilização.
+Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para o texto completo.
+
+Copyright (c) 2026 Frank Coelho de Alcantara.
