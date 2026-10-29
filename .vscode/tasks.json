@@ -1,0 +1,34 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build projeto (MinGW C++23)",
+            "command": "${env:USERPROFILE}\\scoop\\apps\\mingw\\current\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-g",
+                "${workspaceFolder}\\protocolo_http.cpp",
+                "-o",
+                "${workspaceFolder}\\protocolo_http.exe",
+                "-lstdc++exp",
+                "-lws2_32",
+                "-lwinhttp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compila o projeto com MinGW-w64 e C++23."
+        }
+    ],
+    "version": "2.0.0"
+}

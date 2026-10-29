@@ -41,6 +41,24 @@ rede_edu.hpp                 Cabeçalho com as funções de rede
 
 ## Como compilar e executar
 
+### Visual Studio Code com MinGW-w64
+
+Instale a extensão **C/C++** da Microsoft e o MinGW-w64 com `g++` e `gdb`.
+As configurações deste projeto esperam o MinGW instalado pelo Scoop em
+`%USERPROFILE%\scoop\apps\mingw\current\bin`. Se estiver em outro local, ajuste
+`command` em `.vscode/tasks.json`, `compilerPath` em `.vscode/c_cpp_properties.json`
+e `miDebuggerPath` em `.vscode/launch.json`.
+
+Abra a pasta do projeto no VS Code:
+
+- `Ctrl+Shift+B` compila com C++23.
+- `F5` compila e inicia a depuração com GDB.
+
+A tarefa também vincula `stdc++exp`, necessário para o `std::print` do projeto,
+além de `ws2_32` e `winhttp`.
+
+### Visual Studio
+
 1. Abra `protocolo_http.slnx` no Visual Studio.
 2. Selecione a configuração **Debug | x64** (é a que está definida para C++23).
 3. Pressione `F5` (ou `Ctrl+F5`).

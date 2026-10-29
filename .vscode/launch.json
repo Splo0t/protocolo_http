@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Depurar protocolo_http (MinGW)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\protocolo_http.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "${env:USERPROFILE}\\scoop\\apps\\mingw\\current\\bin\\gdb.exe",
+            "preLaunchTask": "Build projeto (MinGW C++23)",
+            "setupCommands": [
+                {
+                    "description": "Habilitar impressão de valores do GDB",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "MinGW-w64",
+            "includePath": [
+                "${workspaceFolder}\\**"
+            ],
+            "defines": [
+                "_WIN32_WINNT=0x0A00"
+            ],
+            "compilerPath": "${env:USERPROFILE}\\scoop\\apps\\mingw\\current\\bin\\g++.exe",
+            "compilerArgs": [
+                "-std=c++23"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
